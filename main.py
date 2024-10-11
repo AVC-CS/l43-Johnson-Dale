@@ -5,6 +5,7 @@ def main():
     while iterator < 5:
         number = int(input("Input a number: "))
         total = total + number
+        iterator += 1
     
     print(total)
 
